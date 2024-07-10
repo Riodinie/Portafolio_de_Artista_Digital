@@ -52,7 +52,7 @@ body {
 .sidebar span {
   width: 100px;
   white-space: nowrap;
-  font-size: 18px;
+  font-size: 15px;
   text-align: left;
   opacity: 1;
   transition: opacity 0.5s ease, width 0.5s ease;
@@ -213,10 +213,19 @@ body {
   font-size: 20px;
 }
 
+.img-container-logo{
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
 .sidebar-logo {
   width: 100%;
+  max-width: 180px;
   border-radius: 10px;
   margin-bottom: 10px;
+  align-items: center;
 }
 
 #inbox {
@@ -259,7 +268,7 @@ main.min-main {
 }
 
 .colum figure {
-  background: linear-gradient(rgba(0, 0, 0, 0), rgb(223, 79, 134));
+  background: linear-gradient(#8e97a1);
 }
 
 .colum figure img {
@@ -367,7 +376,7 @@ main.min-main {
 
 
 .bio-body{
-  font-size: 20px;
+  font-size: 18px;
   display: flex;
   position: relative;
   padding: 20px;
