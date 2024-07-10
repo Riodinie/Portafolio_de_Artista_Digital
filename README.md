@@ -1,6 +1,6 @@
 # Proyecto de Portafolio
 
-Este proyecto es una página web con una versión en PHP que se conecta a una base de datos MySQL para registrar datos de un formulario. A continuación, se presentan las instrucciones para configurar la base de datos y la tabla necesarias para que el proyecto funcione correctamente.
+Este proyecto es una página web con una versión en PHP que pueden usar tomando los archivos de las carpeta "Archivos-Php" y reampazando "Comissions.html" por "Comissions.php", se conecta a una base de datos MySQL para registrar datos de un formulario. A continuación, se presentan las instrucciones para configurar la base de datos y la tabla necesarias para que el proyecto funcione correctamente.
 
 ## Características
 
