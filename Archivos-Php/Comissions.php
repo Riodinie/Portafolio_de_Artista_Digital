@@ -21,24 +21,26 @@
         <ion-icon id="logo-icon" name="star"></ion-icon>
         <span>Phoenirislate</span>
       </div>
-      <img class="sidebar-logo" src="img/Logo.png" alt="">
-      <button class="sidebar-botton">
-        <ion-icon name="logo-instagram"></ion-icon>
-        <span>Instagram</span>
+      <div class="img-container-logo"><img class="sidebar-logo" src="img/Logo.png" alt=""></div>
+      <a href="https://www.instagram.com/phoenirislate/">
+        <button class="sidebar-botton">
+          <ion-icon name="logo-instagram"></ion-icon>
+          <span>Instagram</span>
       </button>
+      </a>
     </div>
 
     <nav class="navbar">
       <div class="line"></div>
       <ul>
         <li>
-          <a id="inbox" href="index.html">
+          <a href="index.html">
             <ion-icon name="images"></ion-icon>
             <span>Galería</span>
           </a>
         </li>
         <li>
-          <a href="Comissions.html">
+          <a  id="inbox" href="Comissions.html">
             <ion-icon name="mail"></ion-icon>
             <span>Comisiones</span>
           </a>
@@ -73,7 +75,7 @@
       <div class="text-com">
         <img src="img/comisiones.png">
       </div>
-      <form method="GET">
+      <form method="POST">
         <br>
         <div class="comission-form">
           <div><input name="name" class="env" type="text" placeholder="NOMBRE"><input name="email" class="env"
@@ -98,3 +100,4 @@
 </body>
 
 </html>
+
