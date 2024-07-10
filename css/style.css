@@ -476,7 +476,7 @@ text-decoration: underline;
   flex-direction: column;
   box-sizing: border-box;
   position: absolute;
-  padding: 10px;
+  padding: 40px;
 }
 
 .text-com{
@@ -504,6 +504,7 @@ text-decoration: underline;
   border: 1.7px solid #8e97a1;
   color: #fff;
   font-size: 15px;
+  font-family: "Raleway", sans-serif;
 }
 
 .env:focus{
@@ -518,7 +519,7 @@ text-decoration: underline;
   font-size: 15px;
   border: 1.7px solid #8e97a1;
   color: #fff;
-  
+  font-family: "Raleway", sans-serif;
 }
 
 #mensaje:focus{
@@ -536,6 +537,7 @@ text-decoration: underline;
  height: 40px;
  cursor: pointer;
  margin: 10px 0px;
+ font-family: "Raleway", sans-serif;
 }
 
 .btn_env:hover{
