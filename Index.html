@@ -1,110 +1,116 @@
 <!DOCTYPE html>
 <html lang="es">
-
-  <head>
-    <meta charset="leo-8559-1"/>
-    <meta name="description" content="Portafolio de arte Phoenirislate "/>
-    <meta name="keywords" content="art,digital,comissions,arte,comisiones,dibujo"/>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <link rel="stylesheet" href="Nav.css">
-    <link rel="stylesheet" href="Art_Work.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Art Work - Phoenirislate</title>
-    <script src="https://kit.fontawesome.com/17ab7c87a6.js"></script>
     <link rel= "icon" type="image/png" href="img/icon.png" />
-    <script src="script_1.js" defer></script>
-  </head>
-
+    <link rel="stylesheet" href="css/style.css">
+</head>
 <body>
-   
-  <div class="overlay">
+    <div class="sidebar-menu">
+        <ion-icon name="menu-outline"></ion-icon>
+        <ion-icon name="close-outline"></ion-icon>
+    </div>
 
-   <div class="slideshow">
+    <div class="sidebar">
+        <div>
+            <div class="logo">
+                <ion-icon id="logo-icon" name="star"></ion-icon>
+                <span>Phoenirislate</span>
+            </div>
+                <img class="sidebar-logo" src="img/Logo.png" alt="">
+                <a href="https://www.instagram.com/phoenirislate/">
+                  <button class="sidebar-botton">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                    <span>Instagram</span>
+                </button>
+                </a>
+        </div>
 
-    <span class="btn_cerrar">&times;</span>
+        <nav class="navbar">
+            <div class="line"></div>
+            <ul>
+                <li>
+                    <a id="inbox" href="index.html">
+                        <ion-icon name="images"></ion-icon>
+                        <span>Galería</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="Comissions.html">
+                        <ion-icon name="mail"></ion-icon>
+                        <span>Comisiones</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="Bio.html">
+                        <ion-icon name="person"></ion-icon>
+                        <span>Sobre mí</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="line"></div>
+        </nav>
+                
+                <div class="switch">
+                        <div class="circle">
+                        </div>
+                    
+            <div class="sidebar-footer">
+                <div class="info-sidebar-footer">
+                        <span>Copyright © All rights reserved.</span>
+                </div>
+            </div>
+        </div>
 
-     <div class="botones atras">
-      <i class="fas fa-chevron-circle-left"></i>
-     </div>
-
-     <div class="botones adelante">
-      <i class="fas fa-chevron-circle-right"></i>
-     </div>
-
-     <img src="" alt="" id="img_slideshow" class="img_carrusel">
-
-   </div>
-
-  </div>
-
-  <input type="checkbox" id="chec">
-
-   <label for="chec" class="label_">
-    <i class="ch fas fa-bars"></i>
-   </label> 
-
-
-    <div id="barra">
-      <div class="btn">
-      </div>
-      <ul>
-        <li>
-          <a href="Index.html" class="t"><p>Phoenirislate Illustration</p></a>
-          <a href="Index.html"><img src="img/Logo.png" alt="Logo Artista" class="logo"></a>
-          
-        </li>
-        <hr size="1">
-        <li class="color"><a href="Index.html">Art Work</a></li>
-        <li class="color"><a href="Comissions.php">Comissions</a></li>
-        <li class="color"><a href="Bio.html">Bio</li></a>
-        <hr size="1">
-        <li>
-            <a href="https://www.facebook.com/"><i class="separacion fab fa-facebook-square"></i></i></a>
-            <a href="https://www.instagram.com/phoenirislate/"><i class="separacion fab fa-instagram"></i></a>
-            <a href="https://twitter.com/"><i class="separacion fab fa-twitter"></i></a>
-        </li>
-        <li>Copyright © All rights reserved.</li>
-      </ul>
     </div>
 
 
-    <div class="prin">
-     
-      <div class="colum">
-       <figure><img  src="img/1_1.jpg" class="a" alt="" data-img-mostrar="0"></figure>
-       <figure><img  src="img/2_1.jpg" class="a" alt="" data-img-mostrar="3"></figure>
-       <figure><img  src="img/3_1.jpg" class="a" alt=""data-img-mostrar="6"></figure>
+    <main>
+      <h1 class="title-pag">Galería</h1>
+      <div class="overlay">
+        <div class="slideshow">
+          <span class="btn_close"><ion-icon name="close"></ion-icon></span>
+          <div class="buttons Previous">
+            <i class="fas fa-chevron-circle-left"><ion-icon name="chevron-back"></ion-icon></i>
+          </div>
+          <div class="buttons Next">
+            <i class="fas fa-chevron-circle-right"><ion-icon name="chevron-forward"></ion-icon></i>
+          </div>
+          <img src="" alt="" id="img_slideshow" class="img_carrusel">
+        </div>
       </div>
-
-      <div class="colum">
-
-        <figure><img  src="img/3_2.jpg" alt="" data-img-mostrar="1"></figure>
-        <figure><img  src="img/1_2.jpg" alt="" data-img-mostrar="4"></figure>
-        <figure><img  src="img/2_2.jpg" alt="" data-img-mostrar="7"></figure>
-
+    
+    
+      <div class="gallery-body">
+        <div class="colum">
+          <figure><img src="img/1_1.jpg" class="a" alt="" data-img-mostrar="0"></figure>
+          <figure><img src="img/2_1.jpg" class="a" alt="" data-img-mostrar="3"></figure>
+          <figure><img src="img/3_1.jpg" class="a" alt="" data-img-mostrar="6"></figure>
+        </div>
+    
+        <div class="colum">
+    
+          <figure><img src="img/3_2.jpg" alt="" data-img-mostrar="1"></figure>
+          <figure><img src="img/1_2.jpg" alt="" data-img-mostrar="4"></figure>
+          <figure><img src="img/2_2.jpg" alt="" data-img-mostrar="7"></figure>
+    
+        </div>
+    
+        <div class="colum">
+          <figure><img src="img/2_3.jpg" alt="" data-img-mostrar="2"></figure>
+          <figure><img src="img/3_3.jpg" alt="" data-img-mostrar="5"></figure>
+          <figure><img src="img/1_3.jpg" alt="" data-img-mostrar="8"></figure>
+    
+        </div>
       </div>
-
-      <div class="colum">
-        <figure><img  src="img/2_3.jpg" alt="" data-img-mostrar="2"></figure>
-        <figure><img  src="img/3_3.jpg" alt="" data-img-mostrar="5"></figure>
-        <figure><img  src="img/1_3.jpg" alt="" data-img-mostrar="8"></figure>
-
-      </div>
+      </div> 
+    </main>
 
 
-
-     <div class="donacion">
-      <a href="https://www.paypal.com/co/home">
-       <h4>Donar</h4><br><br>
-       <i class="fab fa-gratipay"></i></div>
-      </a>
-    </div>
-     
-
-     
-  </div>
-
-
-
-  </body>
- 
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="js/script.js"></script>
+</body>
 </html>

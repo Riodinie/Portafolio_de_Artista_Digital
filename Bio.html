@@ -1,87 +1,98 @@
 <!DOCTYPE html>
 <html lang="es">
-
-  <head>
-    <meta charset="leo-8559-1"/>
-    <meta name="description" content="Portafolio de arte Phoenirislate "/>
-    <meta name="keywords" content="art,digital,comissions,arte,comisiones,dibujo"/>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <link rel="stylesheet" href="Nav.css">
-    <link rel="stylesheet" href="Bio.css">
-    <title>Bio - Phoenirislate</title>
-    <script src="https://kit.fontawesome.com/17ab7c87a6.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Work - Phoenirislate</title>    
     <link rel= "icon" type="image/png" href="img/icon.png" />
-    <script src="script_2.js" defer></script>
-  </head>
-
+    <link rel="stylesheet" href="css/style.css">
+</head>
 <body>
+    <div class="sidebar-menu">
+        <ion-icon name="menu-outline"></ion-icon>
+        <ion-icon name="close-outline"></ion-icon>
+    </div>
 
-  <input type="checkbox" id="chec">
+    <div class="sidebar">
+        <div>
+            <div class="logo">
+                <ion-icon id="logo-icon" name="star"></ion-icon>
+                <span>Phoenirislate</span>
+            </div>
+                <img class="sidebar-logo" src="img/Logo.png" alt="">
+                <a href="https://www.instagram.com/phoenirislate/">
+                    <button class="sidebar-botton">
+                      <ion-icon name="logo-instagram"></ion-icon>
+                      <span>Instagram</span>
+                  </button>
+                  </a>
+        </div>
 
-  <label for="chec" class="label_">
-   <i class="ch fas fa-bars"></i>
-  </label> 
+        <nav class="navbar">
+            <div class="line"></div>
+            <ul>
+                <li>
+                    <a href="index.html">
+                        <ion-icon name="images"></ion-icon>
+                        <span>Galería</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="Comissions.html">
+                        <ion-icon name="mail"></ion-icon>
+                        <span>Comisiones</span>
+                    </a>
+                </li>
+                <li>
+                    <a id="inbox"href="Bio.html">
+                        <ion-icon name="person"></ion-icon>
+                        <span>Sobre mí</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="line"></div>
+        </nav>
+                
+                <div class="switch">
+                        <div class="circle">
+                        </div>
+                    
+            <div class="sidebar-footer">
+                <div class="info-sidebar-footer">
+                        <span>Copyright © All rights reserved.</span>
+                </div>
+            </div>
+        </div>
 
-    <div id="barra">
-      <div class="btn">
-      </div>
-      <ul>
-        <li>
-          <a href="Index.html" class="t"><p>Phoenirislate Illustration</p></a>
-          <a href="Index.html"><img src="img/Logo.png" alt="Logo Artista" class="logo"></a>
-          
-        </li>
-        <hr size="1">
-        <li class="color"><a href="Index.html">Art Work</a></li>
-        <li class="color"><a href="Comissions.php">Comissions</a></li>
-        <li class="color"><a href="Bio.html">Bio</li></a>
-        <hr size="1">
-        <li>
-          <a href="https://www.facebook.com/"><i class="separacion fab fa-facebook-square"></i></i></a>
-          <a href="https://www.instagram.com/phoenirislate/"><i class="separacion fab fa-instagram"></i></a>
-          <a href="https://twitter.com/"><i class="separacion fab fa-twitter"></i></a>
-        </li>
-        <li>Copyright © All rights reserved.</li>
-      </ul>
     </div>
 
 
-    <div class="prin">
+    <main>
+      <h1 class="title-pag">Biografía</h1>
+      <div class="bio-body">
+        <div class="bio">
+          <div class="button-con"><input id="button_1" class="buttons_bio" type="button" value="Sobre Mi"><input id="button_2"
+              class="buttons_bio" type="button" value="Artistas que sigo"><input id="button_3" class="buttons_bio" type="button"
+              value="Experiencia"></div>
+          <div class="text-container">
+            <div class="text" id="one">Mi nombre es Nicolle Diaz, soy de Colombia y nací el 2 de marzo de 2004. Soy
+              ilustradora animadora Independiente. Desde toda mi vida me han apasionado los dibujos animados, el anime y
+              los videojuegos. Mi objetivo es hacer algo tan grande como lo que me ha inspirado desde que era pequeña. Mi
+              trabajo es ser ilustrador y animador independiente que trabaja en línea para el extranjero.</div>
     
-    <div class="bio">
-
-    <div > <input id="boton_1" class="botones" type="button" value="Sobre Mi"><input id="boton_2" class="botones" type="button" value="Artistas que sigo"><input id="boton_3" class="botones" type="button" value="Experiencia"></div>
-     <div class="clor">
-
-     <div class="texto_n" id="one">
-      Mi nombre es Nicolle Diaz, soy de Colombia y nací el 2 de marzo de 2004. Soy ilustradora y animadora Independiente. Desde toda mi vida me han apasionado los dibujos animados, el anime y los videojuegos. Mi objetivo es hacer algo tan grande como lo que me ha inspirado desde que era pequeña. Mi trabajo es ser ilustrador y animador independiente que trabaja en línea para el extranjero.
-     
-
-     </div>
-     
-
-     <div class="img_bio" id="one_img">
-
-
-     </div>
-
-     <div class="img_bio" id="two_img">
-
-     
-      </div>
-
-
-
-
+            <div class="img-container">
+              <div class="img_bio" id="one_img"></div>
+              <div class="img_bio" id="two_img"></div>
+            </div>
+          </div>
         </div>
-     </div>
-     
-  </div>  
-
-     
-  </div>
+      </div>
+      </div>
+    </main>
 
 
-  </body>
- 
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="js/script.js"></script>
+</body>
 </html>
