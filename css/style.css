@@ -374,6 +374,11 @@ main.min-main {
   padding: 20px;
 }
 
+.main-bio{
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
 
 .bio-body{
   font-size: 18px;
@@ -381,9 +386,7 @@ main.min-main {
   position: relative;
   padding: 20px;
   color: #fff;
-  align-items: center;
-  justify-content: center;
-  margin-top: 5rem;
+  height: 100%;
 }
 
 .bio{
