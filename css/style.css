@@ -382,7 +382,6 @@ main.min-main {
 
 .bio-body{
   font-size: 18px;
-  display: flex;
   position: relative;
   padding: 20px;
   color: #fff;
@@ -467,6 +466,7 @@ text-decoration: underline;
   border: 0.5px solid #8e97a1;
   background-color: #010409;
   border-radius: 14px;
+  margin-bottom: 40px;
 }
 
 .comissions{
